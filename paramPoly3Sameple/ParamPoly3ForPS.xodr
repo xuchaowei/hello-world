@@ -1,0 +1,74 @@
+<?xml version="1.0" standalone="yes"?>
+<OpenDRIVE>
+    <header revMajor="1" revMinor="6" name="" version="1.00" date="Tue Feb 25 10:58:36 2020" north="0.0000000000000000e+00" south="0.0000000000000000e+00" east="0.0000000000000000e+00" west="0.0000000000000000e+00">
+    </header>
+   <road name="" length="34.08192356614183" id="1" junction="-1">
+    <link>
+     
+    </link>
+    <type s="6.9530703086387465e-310" type="rural"/>
+    <planView>
+      <geometry s="0" x="587.1545157650253" y="1051.2574586789124" hdg="1.58536889342592" length="34.08192356614183">
+        <paramPoly3 aU="0" bU="34.08219743845984" cU="-0.0006782636046409607" dU="0.0003266194835305214" aV="0" bV="6.548361852765083e-11" cV="0.07169482245080872" dV="-0.11177938673790777"/>
+      </geometry>
+    </planView>
+    <!-- <elevationProfile> -->
+      <!-- <elevation s="0" a="34.971847843190325" b="-0.004772887521835813" c="-0.00016706472470714954" d="-2.8003405262142253e-07"/> -->
+    <!-- </elevationProfile> -->
+     <lateralProfile>
+        </lateralProfile>
+        <lanes>
+            <laneOffset s="0.0000000000000000e+00" a="0.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="0.0000000000000000e+00"/>
+            <laneSection s="0.0000000000000000e+00">
+                <left>
+                    <lane id="3" type="sidewalk" level="false">
+                        <link>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="1.5000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="-0.0000000000000000e+00"/>
+                        <height sOffset="0.0000000000000000e+00" inner="2.0000000298023224e-01" outer="2.0000000298023224e-01"/>
+                    </lane>
+                    <lane id="2" type="border" level="false">
+                        <link>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="1.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="-0.0000000000000000e+00"/>
+                        <height sOffset="0.0000000000000000e+00" inner="0.0000000000000000e+00" outer="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="1" type="driving" level="false">
+                        <link>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.5699999999999998e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="-0.0000000000000000e+00"/>
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <link>
+                        </link>
+                        <roadMark sOffset="0.0000000000000000e+00" type="broken" weight="standard" color="standard" width="1.2000000000000000e-01" laneChange="both" height="1.9999999552965164e-02">
+                        </roadMark>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <link>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="3.5699999999999998e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="-0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-2" type="border" level="false">
+                        <link>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="1.0000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="-0.0000000000000000e+00"/>
+                        <height sOffset="0.0000000000000000e+00" inner="0.0000000000000000e+00" outer="0.0000000000000000e+00"/>
+                    </lane>
+                    <lane id="-3" type="sidewalk" level="false">
+                        <link>
+                        </link>
+                        <width sOffset="0.0000000000000000e+00" a="1.5000000000000000e+00" b="0.0000000000000000e+00" c="0.0000000000000000e+00" d="-0.0000000000000000e+00"/>
+                        <height sOffset="0.0000000000000000e+00" inner="2.0000000298023224e-01" outer="2.0000000298023224e-01"/>
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+  </road>
+
+   
+</OpenDRIVE>
